@@ -12,3 +12,5 @@
 # other
 # rm -rf package/emortal/{autosamba,ipv6-helper}
 
+git clone https://github.com/KFERMercer/luci-app-tcpdump.git ./package/luci-app-tcpdump
+git clone https://github.com/gSpotx2f/luci-app-disks-info.git ./package/luci-app-disks-info
