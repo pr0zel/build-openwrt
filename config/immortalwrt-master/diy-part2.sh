@@ -32,7 +32,7 @@
 
 sed -i 's/CONFIG_CPU_FREQ_DEFAULT_GOV_ONDEMAND=y/CONFIG_CPU_FREQ_DEFAULT_GOV_SCHEDUTIL=y/g' target/linux/x86/64/config-5.15
 #sed -i 's/# CONFIG_CPU_FREQ_GOV_CONSERVATIVE is not set/CONFIG_CPU_FREQ_GOV_CONSERVATIVE=y/g' target/linux/x86/64/config-5.15
-echo "CONFIG_CPU_FREQ_GOV_CONSERVATIVE=m\n" >> target/linux/x86/64/config-5.15
+echo "\nONFIG_CPU_FREQ_GOV_CONSERVATIVE=m\n" >> target/linux/x86/64/config-5.15
 
 
 
